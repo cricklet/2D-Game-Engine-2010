@@ -1,0 +1,10 @@
+=============================================================================
+Kenrick Rilee
+
+GameEngine is the base engine. GravityEngine, PlatformerEngine, and RTSEngine
+all use the classes found within Game Engine. Plumber of the Living Dead,
+GravityGame, and ZombieRTS are all proof-of-concept games which show the
+GameEngine's capabilities.
+
+The Engine code is designed to be as flexible as possible and to allow simple,
+quick creation of new games.
