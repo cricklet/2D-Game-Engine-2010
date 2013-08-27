@@ -8,3 +8,5 @@ Design Principles:
  * Entities (w/o components): I didn't learn about using components to allow for pseudo-multiple-inheritance until after building this engine.
  * Inheritance: GameEngine->RTSEngine->ZombieRTS.
  * Global Events: any entity can send global events. These events can either be picked up by the game thread or by other entities. This is the main method of communication inside the game. I designed the game this way so entities wouldn't have to directly access functions in other entities.
+
+"Demo video of a platformer built with this engine":http://www.youtube.com/watch?v=G8LXEY0m5IM
